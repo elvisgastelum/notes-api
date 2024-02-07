@@ -8,6 +8,13 @@ This is a simple use case for the text plain db package
 - Zod
 
 ## Usage
+
+### Start server
+```sh
+deno task start
+```
+
+### Local development
 ```sh
 deno task dev
 ```

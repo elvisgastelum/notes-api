@@ -10,6 +10,7 @@
     "@db/": "https://raw.githubusercontent.com/elvisgastelum/text-plain-db/0.0.0-alpha-5/"
   },
   "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-write server.ts",
     "dev": "deno run --allow-net --allow-read --allow-write --watch server.ts"
   }
 }
