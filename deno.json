@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "hono/": "https://deno.land/x/hono@v3.12.11/",
+    "@repository/": "./src/repository/",
+    "@controller/": "./src/controller/",
+    "@router/": "./src/router/",
+    "@data/": "./data/",
+    "@api": "./src/api.ts",
+    "std/": "https://deno.land/std@0.188.0/",
+    "@db/": "https://raw.githubusercontent.com/elvisgastelum/text-plain-db/0.0.0-alpha-5/"
+  },
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --allow-write --watch server.ts"
+  }
+}

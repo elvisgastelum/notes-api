@@ -1,0 +1,23 @@
+Id	UUID
+Title	String
+Tags	String
+Type	String
+Content	String
+CreatedAt	Time.DateTime
+UpdatedAt	Time.DateTime
+
+Id	088dec9e-ca43-4046-8e30-05bc16074672
+Title	First Note
+Type	Note
+Content	Hello, World!
+Tags	hello world, first note
+CreatedAt	2021-01-01T00:00:00Z
+UpdatedAt	2021-01-01T00:00:00Z
+
+Title	Testing Notes
+Content	This is a test note
+Tags	note, testing
+Id	088dec9e-ca43-4046-8e30-05bc16074475
+Type	Note
+CreatedAt	2024-02-06T04:47:00.040Z
+UpdatedAt	2024-02-06T04:47:00.040Z
